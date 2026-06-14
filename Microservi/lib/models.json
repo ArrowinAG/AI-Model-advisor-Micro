@@ -1,0 +1,124 @@
+{
+  "models": [
+    {
+      "id": "claude-opus-4",
+      "name": "Claude 3.5 Opus",
+      "provider": "Anthropic",
+      "category": "Premium",
+      "costPerMTok": 15.0,
+      "speed": 9,
+      "accuracy": 10,
+      "contextWindow": 200000,
+      "strengths": ["Best-in-class accuracy", "Long context", "Complex reasoning"],
+      "useCase": "Enterprise, complex tasks, reasoning-heavy work"
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "provider": "OpenAI",
+      "category": "Premium",
+      "costPerMTok": 30.0,
+      "speed": 8,
+      "accuracy": 9,
+      "contextWindow": 128000,
+      "strengths": ["Multimodal", "Highly capable", "Wide usage"],
+      "useCase": "Complex multimodal tasks, production systems"
+    },
+    {
+      "id": "claude-sonnet",
+      "name": "Claude 3.5 Sonnet",
+      "provider": "Anthropic",
+      "category": "Balanced",
+      "costPerMTok": 3.0,
+      "speed": 8,
+      "accuracy": 9,
+      "contextWindow": 200000,
+      "strengths": ["Best price-performance", "Fast", "Accurate"],
+      "useCase": "Most use cases, chatbots, content generation"
+    },
+    {
+      "id": "claude-haiku",
+      "name": "Claude 3.5 Haiku",
+      "provider": "Anthropic",
+      "category": "Budget",
+      "costPerMTok": 0.8,
+      "speed": 9,
+      "accuracy": 7,
+      "contextWindow": 200000,
+      "strengths": ["Ultra-fast", "Ultra-cheap", "Lightweight"],
+      "useCase": "High-volume tasks, real-time applications"
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "name": "GPT-3.5 Turbo",
+      "provider": "OpenAI",
+      "category": "Budget",
+      "costPerMTok": 0.5,
+      "speed": 9,
+      "accuracy": 6,
+      "contextWindow": 16000,
+      "strengths": ["Cheapest", "Fast", "Reliable"],
+      "useCase": "Simple tasks, high-volume needs"
+    },
+    {
+      "id": "gemini-pro",
+      "name": "Gemini Pro",
+      "provider": "Google",
+      "category": "Mid-tier",
+      "costPerMTok": 7.5,
+      "speed": 8,
+      "accuracy": 8,
+      "contextWindow": 1000000,
+      "strengths": ["Huge context window", "Good performance", "Cost-effective"],
+      "useCase": "Document processing, large context tasks"
+    },
+    {
+      "id": "gemini-flash",
+      "name": "Gemini Flash",
+      "provider": "Google",
+      "category": "Budget",
+      "costPerMTok": 0.075,
+      "speed": 9,
+      "accuracy": 7,
+      "contextWindow": 1000000,
+      "strengths": ["Ultra-cheap", "Fast", "Long context"],
+      "useCase": "High-volume processing, cost-sensitive"
+    },
+    {
+      "id": "mistral-large",
+      "name": "Mistral Large",
+      "provider": "Mistral",
+      "category": "Balanced",
+      "costPerMTok": 8.0,
+      "speed": 8,
+      "accuracy": 8,
+      "contextWindow": 32000,
+      "strengths": ["European-based", "Good performance", "Reasonable cost"],
+      "useCase": "European compliance, balanced needs"
+    },
+    {
+      "id": "llama-2-70b",
+      "name": "Llama 2 70B",
+      "provider": "Meta",
+      "category": "Open-source",
+      "costPerMTok": 0.27,
+      "speed": 6,
+      "accuracy": 7,
+      "contextWindow": 4096,
+      "strengths": ["Open-source", "Can self-host", "No proprietary lock-in"],
+      "useCase": "Self-hosted solutions, open-source projects"
+    },
+    {
+      "id": "gpt-4-turbo",
+      "name": "GPT-4 Turbo",
+      "provider": "OpenAI",
+      "category": "Balanced",
+      "costPerMTok": 10.0,
+      "speed": 7,
+      "accuracy": 9,
+      "contextWindow": 128000,
+      "strengths": ["Powerful", "Reliable", "Well-known"],
+      "useCase": "Production applications, complex reasoning"
+    }
+  ]
+}
